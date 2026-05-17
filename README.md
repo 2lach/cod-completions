@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/GO-passing-green?style=for-the-badge&logo=Go)
 
-Cod is a completion daemon for `bash`, `fish`, and `zsh`.
+Cod is a completion daemon for `bash`, `fish`, and `zsh` written in go built with python.
 
-[my forks README](./README.2.md)
-[Journal](./JOURNAL.md)
+[my README (swedish)](./README.2.md)
+[Journal (swedish)](./JOURNAL.md)
 
 It detects usage of `--help` commands, parses their output, and generates
 auto-completions for your shell.
-
-![https://asciinema.org/a/h0SrrNvZVcqoSM4DNyEUrGtQh](https://github.com/TheBearodactyl/assets/blob/main/h0SrrNvZVcqoSM4DNyEUrGtQh.svg)
 
 # Install
 
