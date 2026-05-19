@@ -37,7 +37,7 @@ func CompileSelector(glob, homeDir string) (g Selector, err error) {
 	dir, name := filepath.Split(glob)
 
 	check := func(s string) error {
-		if strings.ContainsRune(s, '*') {
+		if strings.IndexRune(s, '*') != -1 {
 			return fmt.Errorf("bad glob: '*' and '**' are supported only as last component of the path")
 		}
 		return nil

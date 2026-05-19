@@ -90,6 +90,7 @@ func StringSortUniq(s []string) {
 		}
 		writeIndex += 1
 	}
+	return
 }
 
 func HashStrings(s []string) string {
