@@ -13,4 +13,3 @@ if __name__ == "__main__":
     subcommand2_parser.add_argument("--sub-command2-argument")
 
     parser.parse_args()
-
